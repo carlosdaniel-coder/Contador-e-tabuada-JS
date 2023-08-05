@@ -1,0 +1,30 @@
+body {
+    background-color: #5795dd;
+    font-family: sans-serif;
+}
+
+h1, footer p {
+    color: white;
+    text-align: center;
+}
+
+section {
+    width: 30rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.528);
+    border-radius: 10px;
+}
+
+input {
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 590px){
+    section {
+        width: auto;
+        margin: 0 5%;
+    }
+}
